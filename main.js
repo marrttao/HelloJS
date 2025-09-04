@@ -1,7 +1,7 @@
 function reverseString(str) {
     //return str.split('').reverse().join('');
     // or
-    _str;
+    let _str = '';
     for (let i = str.length - 1; i >= 0; i--) {
         _str += str[i];
     }
